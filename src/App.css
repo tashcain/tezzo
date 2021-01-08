@@ -1,0 +1,353 @@
+@import '~antd/dist/antd.css';
+*{
+    font-family: 'Quicksand', sans-serif;
+
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+
+}
+.app-logo{
+   
+    font-family: 'Quicksand', sans-serif;
+    
+    margin-left: 8px;
+    margin-top: 20px;
+    font-weight: 1000;
+    letter-spacing: 4px;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.ant-layout-sider-children {
+/* background: #332A7C; */
+background:#fff;
+}
+.ant-layout-sider-trigger{
+    /* background:#332A7C; */
+    background: #fff;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item, .ant-menu-dark.ant-menu-inline .ant-menu-submenu-title{
+    width: 100%;
+    padding-top: 7px;
+    height: 50px;
+}
+.ant-menu.ant-menu-dark .ant-menu-item-selected, .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected{
+    padding-left: 24px;
+    height: 52px;
+    background: #FFA000;
+}
+.ant-menu-item .anticon + span, .ant-menu-submenu-title .anticon + span{
+    font-size:14px;
+}
+.ant-menu-inline, .ant-menu-vertical, .ant-menu-vertical-left{
+    border: none;
+}
+.ant-menu-item .anticon{
+    color:#29435d;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: rgba(255, 185, 51, 0.1);
+    height: 50px;
+    border-left: 6px solid rgba(255, 185, 51, 1)
+}
+.ant-menu-item-selected .anticon{
+    color:rgba(255, 185, 51, 1)
+}
+.cover-head-one{
+    font-family: 'Fredoka One', cursive;
+    margin-top: 30px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    color: #29435d
+}
+.cover-head-two{
+    font-size: 30px;
+    color: #29435d;
+}
+.cover-span{
+    font-weight:800;
+    color:rgba(255, 185, 51, 1)
+}
+.box-left{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.box-right{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.page-head{
+   
+    font-family: 'Quicksand', sans-serif;
+   margin-left: 8px;
+    margin-top: 20px;
+    font-weight: 1000;
+    letter-spacing: 4px;
+    font-size: 45px;
+    margin-bottom: 30px; 
+    color:#29435d;
+}
+.page-head-sub{
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 8px;
+     margin-top: 20px;
+     font-weight: 1000;
+     letter-spacing: 1px;
+     font-size: 17px;
+     margin-bottom: 30px; 
+     color:#29435d;
+}
+.uk-navbar-nav>li>a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.mr-left{
+margin-left: 10px;
+}
+.mr-right{
+    margin-right: 10px;
+}
+.ant-table-column-title{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color:#29435d;
+}
+.ant-table-thead > tr > th{
+    background: #fff;
+    padding-left: 25px;
+}
+.ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    padding: 20px 27px;
+    overflow-wrap: break-word;
+    font-size: 16px;
+    color:#29435d;
+}
+.ant-table-row:hover{
+    background: rgba(255, 185, 51, 0.1);
+}
+.ant-table-tbody{
+    background: #fff;
+}
+.gen-btn{
+    background: #38CB84;
+    
+    border: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 15px;
+}
+.gen-btn:hover{
+    background:#4fcfad;
+    color:#fff;
+}
+.ant-modal-title{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.label-title{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.ant-input:hover{
+    border-color: rgba(255, 185, 51, 1)
+}
+.ant-input:focus{
+    box-shadow:0 0 0 2px rgba(255, 185, 51, 0.2);
+    border-color: rgba(255, 185, 51, 1)
+}
+.ant-drawer-title{
+    font-weight: 800;
+    font-size: 20px;
+    color:#29435d;
+}
+.ant-page-header-heading .ant-avatar{
+    height: 60px;
+    width: 60px;
+}
+.gen-btn-red{
+    background: #e74c3c;
+    border: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 15px;
+}
+.gen-btn-red:hover{
+    background: #c0392b;
+}
+.ant-tabs .ant-tabs-left-bar .ant-tabs-nav{
+    background: #fff;
+}
+.ant-tabs{
+    padding-top:20px;
+    padding-left:20px;
+    background:#fff;
+}
+.ant-tabs .ant-tabs-left-bar .ant-tabs-tab{
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color:#29435d;
+    text-align: left;
+}
+.ant-tabs .ant-tabs-left-bar .ant-tabs-ink-bar{
+    right: 1px;
+    width: 3px;
+    background: rgba(255, 185, 51, 1);
+}
+.ant-tabs-nav .ant-tabs-tab-active{
+color:rgba(255, 185, 51, 1);
+}
+.set-heading{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color:#29435d;
+}
+.ant-tag{
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    background: #38CB84;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    margin-top:10px;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled){
+    z-index: 1;
+    color: #38CB84;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: #fff;
+    border-color: #38CB84;
+    -webkit-box-shadow: -1px 0 0 0 #38CB84;
+    box-shadow: -1px 0 0 0 #38CB84;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):first-child{
+    border-color: #38CB84;
+}
+.ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover{
+    color: #4fcfad;
+    border-color: #4fcfad;
+    -webkit-box-shadow: -1px 0 0 0 #4fcfad;
+    box-shadow: -1px 0 0 0 #4fcfad;
+}
+.ant-input-signup {
+   /* height: 75px; */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum", "tnum";
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 45px;
+    padding: 4px 11px;
+    color: #2c3e50;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    /* background-color: #fff; */
+    background-image: none;
+    /* border: 1px solid #d9d9d9; */
+    border-radius: 4px;
+    transition: all 0.3s;
+    /* background: #f8f8f8; */
+    letter-spacing: 1px;
+}
+.ant-btn-signup{
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    letter-spacing: 1px;
+    background-color: #38CB84;
+}
+.ant-btn-signup:hover{
+    background-color: #4fcfad;
+}
+.workout-name{
+    font-size: 17px;
+    font-weight: 600;
+    color: #2c3e50 !important;
+    letter-spacing: 1px;
+}
+.workout-card{
+    padding: 15px;
+  box-shadow: 0 0px 5px rgba(0,0,0,.08);
+}
+.sets-span{
+    font-size: 17px;
+    color: #34495e;
+    font-weight: 600
+}
+.sets-p{
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-bottom: -1px;
+}
+.workout-footer{
+    /* border: none; */
+    /* background: red; */
+    padding: 0px;
+    margin-top: 5px;
+    text-align: center; 
+    border-top: none;
+}
+.workout-del{
+    font-family: 'Quicksand', sans-serif !important;
+    color: #e74c3c;
+}
+.ant-menu-inline-collapsed > .ant-menu-item, .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-item, .ant-menu-inline-collapsed > .ant-menu-item-group > .ant-menu-item-group-list > .ant-menu-submenu > .ant-menu-submenu-title, .ant-menu-inline-collapsed > .ant-menu-submenu > .ant-menu-submenu-title{
+    padding: 0 22px !important;
+}
+/* .ant-btn {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: rgba(56, 203, 132, 1);
+    border-radius: 25px;
+  
+    font-family: SourceSansPro-SemiBold;
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  
+    /* box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5); */
+    /* -moz-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+    -webkit-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+    -o-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+    -ms-box-shadow: 0 10px 30px 0px rgba(189, 89, 212, 0.5);
+  } */
+  
+  /* .ant-btn:hover {
+    background-color: rgba(56, 203, 132, 0.8);
+    color:#fff;
+    border:none */
+    /* box-shadow: 0 10px 30px 0px rgba(56, 203, 132, 0.2);
+    -moz-box-shadow: 0 10px 30px 0px rgba(56, 203, 132, 0.8);
+    -webkit-box-shadow: 0 10px 30px 0px rgba(56, 203, 132, 0.8);
+    -o-box-shadow: 0 10px 30px 0px rgba(56, 203, 132, 0.8);
+    -ms-box-shadow: 0 10px 30px 0px rgba(56, 203, 132, 0.8); */
